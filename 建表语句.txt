@@ -1,0 +1,14 @@
+CREATE TABLE kujiale_img(
+id INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id号',
+hourse_name VARCHAR(50) COMMENT '房屋名字',
+house_href VARCHAR(100) COMMENT '房屋详细url',
+house_type VARCHAR(100) COMMENT '房屋类型',
+construction_area VARCHAR(50) COMMENT '面积',
+location VARCHAR(50) COMMENT '位置',
+src VARCHAR(120) COMMENT '图片链接'
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+INSERT INTO kujiale_img(hourse_name,house_href,house_type,construction_area,location,src) VALUES("a","b","c","d","5",'5')
+
+SELECT * from kujiale_img
